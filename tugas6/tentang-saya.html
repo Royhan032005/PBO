@@ -1,0 +1,51 @@
+<html>
+ <head>
+ <title>Tentang Saya</title>
+ <style>
+    body {
+     background-color: lightblue;
+    }
+    p{
+        font-size: 50px;
+    }
+  </style>
+ </head>
+ <body>
+ <h2>Tentang Saya</h2>
+ <ul>
+ <li><a href="{{ url_for('index') }}">Home</a></li>
+ <li><a href="{{ url_for('kontakSaya')}}">Kontak Saya</a></li>
+ <li><a href="{{ url_for('tentangSaya')}}">Tentang Saya</a></li>
+ </ul>
+ <p align="center">Saya seorang web programming</p>
+ <table border="1" align="center" class="tabel">
+    <tr class="data">
+        <td width="230"><b>Data Diri</b></td>
+        <td width="250"><b>Keterangan</b></td>
+        <td width="250"><b>Gambar</b></td>
+    </tr>
+    <tr class="nama">
+        <td><b>Nama</b></td>
+        <td>Achmad Royhan Abdillah</td>
+        <td rowspan="5"><img src="https://rare-gallery.com/thumbnail/397191-wallpaper-rimuru-tempest-mask-tensura-anime-4k.jpg" width="250"/></td>
+    </tr>
+    <tr class="tempat">
+        <td><b>Tempat/Tanggal Lahir</b></td>
+        <td>Gresik, 14 Maret 2005</td>
+    </tr>
+    <tr class="jenis">
+        <td><b>Jenis Kelamin</b></td>
+        <td>Laki-Laki</td>
+    </tr>
+    <tr class="pekerjaan">
+        <td><b>Pekerjaan</b></td>
+        <td>Siswa</td>
+    </tr>
+    <tr class="hobi">
+        <td><b>Hobi</b></td>
+        <td>menggambar kartun</td>
+    </tr>
+
+</table>
+ </body>
+</html>
